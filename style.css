@@ -1,0 +1,44 @@
+.body {
+    background-color: #e5e5e5ef;
+}
+
+nav {
+    z-index: 4;
+}
+
+.themes {
+    box-shadow: 1px 1px 5px rgb(255, 255, 255, 0.5);
+}
+
+.hero-section {
+    border-bottom: 2px solid #2e2e2e;
+    margin-top: 55px;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.info img {
+    height: 100px;
+}
+
+.footer img {
+    height: 100px;
+}
+
+.footer-info small {
+  color: rgb(204, 191, 191);
+  cursor: pointer;
+}
+
+.footer-info small:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgb(184, 158, 158);
+}
+
+
