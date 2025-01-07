@@ -13,10 +13,4 @@ function scrollToReviews() {
 function subscribe() {
     const subscribeBtn = document.querySelector('.subscribe-btn');
     subscribeBtn.innerText = 'Please wait..';
-
-    setTimeout(() => {
-        subscribeBtn.classList.remove('subscribe')
-        subscribeBtn.classList.add('subscribed')
-        subscribeBtn.innerText = 'Subscribed';
-    }, 3000)
 }
