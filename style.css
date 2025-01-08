@@ -28,19 +28,13 @@ nav {
 }
 
 .subscribe-btn {
-    padding: 10px;
-    border: none;
-    border-radius:  0 10px 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.subscribe {
-    background-color: black;
-    color: white;
-}
-
-.subscribed {
-    background-color: white;
-    color: black;
+.subscribe-btn:hover {
+    background-color: #f8d7da;
+    color: #dc3545;
+    transform: scale(1.1);
 }
 
 .header-link:hover {
