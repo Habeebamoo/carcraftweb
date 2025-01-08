@@ -88,6 +88,19 @@ nav {
   }
 }
 
+.reviews-card {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: none; /* Optional: Removes default card border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+              0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 
+              0 15px 40px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
 .footer img {
     height: 100px;
 }
