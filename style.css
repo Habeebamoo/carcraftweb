@@ -62,10 +62,6 @@ nav {
   white-space: nowrap;
 }
 
-.reviews {
-  animation: scroll 20s linear infinite;
-}
-
 .card {
   display: inline-block;
   flex: 0 0 auto;
@@ -75,6 +71,12 @@ nav {
   overflow: visible;
   white-space: normal;
   display: block;
+}
+
+.reviews {
+  display: flex;
+  animation: scroll 20s linear infinite;
+  width: max-content; /* Ensures the width adapts to the content */
 }
 
 @keyframes scroll {
