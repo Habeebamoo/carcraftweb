@@ -27,16 +27,6 @@ nav {
     margin-top: 55px;
 }
 
-.subscribe-btn {
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.subscribe-btn:hover {
-    background-color: #f8d7da;
-    color: #dc3545;
-    transform: scale(1.1);
-}
-
 .header-link:hover {
     background-color: #333;
     color: white;
