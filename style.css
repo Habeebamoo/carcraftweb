@@ -71,6 +71,14 @@ nav {
   flex: 0 0 auto;
 }
 
+.review-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0);
