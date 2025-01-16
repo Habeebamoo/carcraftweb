@@ -106,5 +106,11 @@ nav {
     .footer-info {
         text-align: center;
     }
+
+    .footer-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
